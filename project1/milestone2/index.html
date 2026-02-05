@@ -1,0 +1,148 @@
+<html>
+    
+    <head>
+      <link rel="stylesheet" href  = "styling.css"> 
+      <link rel="stylesheet" href  = "heading_style.css"> 
+      <title>Project 1 Profolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+        .section{
+            background-color: rgb(0, 255, 242);
+            color: black;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        @media only screen and (max-width: 620px) {
+            .section, #image, table, p, th, td, dt, dl, ul, input {
+            width: 100%;
+            }     
+        }
+    </style>
+    <body>
+        <div class = "menu">
+        <img src = "https://static.vecteezy.com/system/resources/previews/045/595/627/non_2x/welcome-sign-letters-with-confetti-background-celebration-greeting-holiday-illustration-photo.jpg" style = "width:500px;height:300px;" id = "image">
+        <h1>Menu</h1>
+        <table> 
+            <tr>
+                <th> Sections </th>
+                <th> Information</th>
+            </tr>
+            <tr>
+                <td><a href="#C1">Jump to Section 1</a></td>
+                <td>   Basic information about me </td>
+            </tr>
+            <tr>
+                <td><a href="#C2">Jump to Section 2</a></td>
+                <td>   Education Summary </td>
+            </tr>
+            <tr>
+                <td><a href="#C3">Jump to Section 3</a></td>
+                <td>   Intership/Project Summary </td>
+            </tr>
+            <tr>
+                <td><a href="#C4">Jump to Section 4</a></td>
+                <td>   Programming Skills Summary</td>
+            </tr>
+            <tr>
+                <td><a href="#C5">Jump to Section 5</a></td>
+                <td>   General Interests Summary </td>
+            </tr>
+            <tr>
+                <td><a href="#C6">Jump to Section 6</a></td>
+                <td>   Favorite Song, film, and TV show </td>
+            </tr>
+            <tr>
+                <td><a href="#C7">Jump to Section 7</a></td>
+                <td>   My Favorite Website </td>
+            </tr>
+            <tr>
+                <td><a href="#C8">Jump to Section 8</a></td>
+                <td>   My Projects </td>
+            </tr>
+        </table>
+        </div>
+        <p>Video of a project I did for one of my classes that plays during the time that you are looking at the website.</p>
+        <video controls autoplay muted width = "320" height = "240" >
+            <source src ="FYW (3).mp4" type="video/mp4">
+        Your browser does not support video tag.
+        </video>
+        <div id = "C1" class = "section">
+        <h1>Basic Information</h1>   
+        <p>Name: <span id = "important"> Jakub Cholko</span></p>
+        <p>Major: <span id = "important">Computer Science</span></p>
+        <p>Minor: <span id = "important">Cyber Security</span></p>
+        <img src = "20260128_192213.jpg" style = "width:300px;height:300px;">
+        </div>
+
+        <div id = "C2" class = "section">
+        <h1>Education Summary</h1>
+        <p>I am currently a junior at St. John's University that is majoring in Computer Science and minoring in Cyber Security. Before St. John's University, I went to Christ the King High School.</p>
+        
+        <h3 style = "color:brown; margin:10px">Diplomas and Degrees</h3>
+        <ul>
+            <li>High School Diploma</li>
+        </ul>
+        </div>
+
+        <div id = "C3" class = "section">
+        <h1>Intership/Projects</h1>
+        <dl>
+            <dt>GPA Calculator</dt>
+            <dd>I have created a GPA calculator in Java that finds your GPA using the credits and letter grade that you have recieved in each class. It also has a GUI to make it user friendly and allows the user to enter as many classes as they have taken to check their overal GPA.</dd>
+            <dt>Bookstore Database Schema</dt>
+            <dd>I have worked with a group of 2 other students to create a database using SQL that stores information needed for a bookstore including inventory, ratings, and payment histories. We used ERD diagrams to plan on how the database would work.</dd>
+        </dl>
+        </div>
+
+        <div id = "C4" class = "section">
+        <h1>Programming Skills</h1>
+        <h3>Programming Languages</h3>
+        <dl> 
+            <dt>Python</dt>
+            <dd>Know basics of it, have used it for 2 years</dd>
+            <dt>Java</dt>
+            <dd>I am proficient in it, I have used it during my 3 years in college</dd>
+            <dt>SQL</dt>
+            <dd>Know the basics of it, have used it for 1 semester</dd>
+            <dt>HTML</dt>
+            <dd>New language that I am learning</dd>
+        </dl>
+        </div>
+
+        <div id = "C5" class = "section">
+        <h1>General Interests</h1>
+            <p>Other than programming, I enjoy playing video games, building lego's, and fishing. I also enjoy spending time with family and friends.</p>
+        </div>
+
+        <div id = "C6" class = "section">
+        <h1>Favorite song, film, and TV show section</h1>
+        <ul>
+            <li><a href = "https://www.youtube.com/watch?v=JhSVQDaUNg4"> My Favorite Song</a></li>
+            <li><a href = "https://www.youtube.com/watch?v=1hPpG4s3-O4"> My Favorite Movie</a></li>
+            <li><a href = "https://www.youtube.com/watch?v=hQXKyIG_NS4"> My Favorite TV Show</a></li>
+        </ul>
+        </div>
+
+        <div id = "C7" class = "section">
+
+        <h1>Favorite Website</h1>
+        <a href = "https://www.coolmathgames.com/"> My Favorite Website</a></li> 
+        <p>This website is a place where you can play online games for free. There are many options to choose from for all people who like to play games.</p>
+        </div>
+        
+        <div id = "C8" class = "section">
+        <h1>My Projects</h1>
+        <form>
+            <label for ="Project Name1">Project 1 Name: </label><br>
+            <input type = "text" id = "Project Name1" project = "Project Name1" value = "Personal Website" ><br>
+            <label for = "information"> Information:</label><br>
+            <input type = "text" id = "Information" info = "Information" value = "Information about me" ><br>
+            <label for = "link"> Link:</label><br>
+            <input type = "url" id = "Link" value = "https://jakubcholko23.github.io/project1-1172/"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+    </body>
+</html>

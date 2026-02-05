@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(0, 255, 21, 0.636);
+}
+table, th, td{
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid;
+}
+th,td{
+    color: black;
+}
+table{
+    color:red;
+}
+dt,ul{
+    color:rgba(220, 20, 60, 0.532);
+    font-size:16px;
+} 
+dl{
+    font-size:15px;
+    color:crimson;
+    font-style:oblique;
+}  
+input{
+    padding:12px;
+    box-sizing:border-box;
+    width:100%;
+}
+#important{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:black;
+}
+#image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    clip-path: circle(50%);
+}
+p{
+    font-size:14px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0, 0, 255)
+}
